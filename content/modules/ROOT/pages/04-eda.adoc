@@ -1,0 +1,18 @@
+// :icons: font
+
+icon:clock-o[Duration: 10 Minutes] Duration: 10 minutes
+
+[#explore]
+= Explore EDA
+
+EDA environement is available link:https://duckduckgo.com/[here].
+
+NOTE: Username and password are given by instructor
+
+image::eda-gui.png[Event Driven Ansible GUI,align="center",width="100%"]
+
+[#navigate]
+= EDA navigation
+
+You can navigate around EDA using the left side menu. You have
+view permissions only.

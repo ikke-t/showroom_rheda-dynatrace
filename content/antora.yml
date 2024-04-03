@@ -1,16 +1,15 @@
+---
 name: modules
-title: RH1 AAP2 Containerized
+title: Event Driven Ansible & Dynatrace Escape Room
 version: master
-nav:
-  - modules/ROOT/nav.adoc
-
+nav: [modules/ROOT/nav.adoc]
 asciidoc:
   attributes:
     icons: font
     page-pagination: true
     # experimental: true
     # release-version: master
-    lab_name: "RH1 AAP2 Containerized"
+    lab_name: Event Driven Ansible & Dynatrace Escape Room
     guid: my-guid
     subdomain: aap2-01.sandbox5.opentlc.com
     subdomain_internal: aap2-01.internal
@@ -18,7 +17,6 @@ asciidoc:
     ssh_command: ssh devops@bastion.{guid}.example.opentlc.com
     ssh_password: MjU4NDk2
     targethost: bastion.aap2-01.sandbox5.opentlc.com
-
   extensions:
     - ./content/lib/tab-block.js
     - ./content/lib/remote-include-processor.js

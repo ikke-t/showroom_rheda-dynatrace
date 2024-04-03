@@ -1,0 +1,18 @@
+// :icons: font
+
+icon:clock-o[Duration: 10 Minutes] Duration: 10 minutes
+
+[#explore]
+= Explore Ansible Controller
+
+Ansible Controller is available link:https://duckduckgo.com/[here].
+
+NOTE: Username and password are given by instructor
+
+image::controller-gui.png[Ansible Controller,align="center",width="100%"]
+
+[#navigate]
+= Ansible Controller navigation
+
+You can navigate around Ansible Controller using the left side bar. You have
+view permissions only.

@@ -1,0 +1,20 @@
+// :icons: font
+
+icon:clock-o[Duration: 10 Minutes] Duration: 10 minutes
+
+[#explore]
+= Explore Dynatrace
+
+Dynatrace environement is available link:https://bnk46244.live.dynatrace.com/[here].
+
+NOTE: Username and password are given by instructor
+
+image::dt-gui.png[Dynatrace Portal,align="center",width="100%"]
+
+[#navigate]
+= Dynatrace navigation
+
+You can navigate around Dynatrace instance using either icons in opening page
+or clicking `ctrl-k` to get to search bar.
+
+image::dt-search.png[payment,align="center",width="100%"]
