@@ -5,6 +5,7 @@ icon:clock-o[Duration: 10 Minutes] Duration: 10 minutes
 [#explore]
 = Explore Ansible Controller
 
+//FIX: url variable here
 Ansible Controller is available link:https://duckduckgo.com/[here].
 
 NOTE: Username and password are given by instructor

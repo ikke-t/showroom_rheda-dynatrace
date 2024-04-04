@@ -35,7 +35,7 @@ notice an email with topic:
 
 [quote, topic of warning email]
 ____
-_Web Shop had a failure_
+_EasyTravel webshop had a failure_
 ____
 
 With link to issue tracker ticket which says it was resolved, and ticket state
@@ -45,12 +45,13 @@ You scroll a bit forward, and you notice another mail.
 
 [quote, topic of action email]
 ____
-_Web Shop operations ensured_
+_Easytravel webshop operations is restored_
 ____
 
-With link to another issue tracker ticket, which's state is open and it says
-the root cause needs to be analyzed. While sipping your coffee, you wonder what
-the heck has happened? Time to recall how our monitoring was setup.
+With link to another issue tracker ticket which state is open and it says
+the error was fixed and operations restored, but root cause needs to be
+analyzed. While sipping your coffee, you wonder what the heck has happened?
+Time to recall how our monitoring was setup.
 
 [#setup]
 == Web Shop monitoring setup
@@ -60,9 +61,9 @@ image::webshop-dt-eda.png[Monitoring and automation setup,align="center",width="
 Let's look at the above graph. It shows the following:
 
 1. *Web Shop* is running on RHEL host, which has *Dynatrace OneAgent* sending
-   analytics to Dynatrace.
-2. *Dynatrace* is continously analyzing the VM state, and keeps up the state of
-   web shop. It can trigger monitoring events, and has log of past events along
+   analyses to Dynatrace.
+2. *Dynatrace* is continuously analyzing the VM state, and monitors the state of
+   webshop. It can trigger monitoring events, and has log of past events along
    with comments for actions regarding them.
 3. *Event Driven Ansible* (EDA) instance is running Decision Environment (DE)
    which has active *rulebook* connected to listen to Dynatrace monitoring

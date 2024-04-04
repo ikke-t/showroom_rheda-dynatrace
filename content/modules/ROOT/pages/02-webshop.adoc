@@ -3,7 +3,7 @@
 icon:clock-o[Duration: 5 Minutes] Duration: 5 minutes
 
 [#explore]
-= Explore Easy Travel WebShop
+= Explore EasyTravel Web Shop
 
 EasyTravel is a demo webshop Dynatrace uses in demos. It is already setup for you in
 this lab. You can enter it link:https://dtg2-cmfxanb0hdgucmbb.z01.azurefd.net/easytravel/[here].
@@ -16,7 +16,7 @@ image::webshop.png[webshop,align="center",width="100%"]
 You may create which ever username and password you want. There is also
 predefined demo user `maria` with password `maria`. You can book trip and click
 `pay`. While it asks for credit card details, there is a lock icon at right top
-corner of the credit card field. Press the lock and you get pre-defined credit
+corner of the credit card field. Press the lock and you get predefined credit
 card details filled.
 
 image::payment.png[payment,align="center",width="100%"]

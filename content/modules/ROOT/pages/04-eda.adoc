@@ -5,7 +5,8 @@ icon:clock-o[Duration: 10 Minutes] Duration: 10 minutes
 [#explore]
 = Explore EDA
 
-EDA environement is available link:https://duckduckgo.com/[here].
+//FIX: url variable here
+EDA environment is available link:https://duckduckgo.com/[here].
 
 NOTE: Username and password are given by instructor
 
