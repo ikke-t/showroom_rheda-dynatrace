@@ -7,31 +7,31 @@ Welcome to the Red Hat Event Driven Ansible and Dynatrace escape room lab!
 [#overview]
 == Overview
 
-In this escape room participants are grouped into groups of 4-5, and each group
+In this escape room participants are split into groups of 4-5, and each group
 has a virtual meeting room. It’s enough for one to have the laptop, and group
 participates to solve challenges together. You are given tasks to solve one at
-the time in your virtual workspace. After you solve the tasks, you write the
-answer to virtual workspace chat, and if it’s right, you’ll escape to the next
-stage. New task will be assigned to you in the chat.
+a time in your virtual workspace. After you solve a task, you write the
+answer to the virtual workspace chat, and if it’s right, you’ll escape to the next
+stage. A new task will be assigned to you in the chat.
 
 
 [#goals]
 == Lab Goals
 
-After the lab you hopefully understand:
+After the lab you will hopefully understand:
 * power of event driven automation
 * logic how to turn monitoring into automated actions.
 * basic problem finding scenario in Dynatrace
 * how the events get monitored automatically in EDA
 * how Ansible Controller offers job templates and audit log
-* how repeating fixes for monitored issues could be automated away
+* how repeating fixes for monitored issues could be automated
 
 
 [#story]
 = Escape room story
 
-You are responsible of travel agency web shop. One day you arrive at work, and
-notice an email with topic:
+You are responsible for a travel agency web shop. One day you arrive at work, and
+notice an email with this topic:
 
 [quote, topic of warning email]
 ____
@@ -39,7 +39,7 @@ _EasyTravel webshop had a failure_
 ____
 
 With link to issue tracker ticket which says it was resolved, and ticket state
-is closed.
+is Closed.
 
 You scroll a bit forward, and you notice another mail.
 
@@ -48,9 +48,9 @@ ____
 _Easytravel webshop operations is restored_
 ____
 
-With link to another issue tracker ticket which state is open and it says
-the error was fixed and operations restored, but root cause needs to be
-analyzed. While sipping your coffee, you wonder what the heck has happened?
+There is a link to another issue tracker ticket with state Open and it says
+the error was fixed and operations restored, but the root cause needs to be
+analyzed. While sipping your coffee, you wonder what the heck has happened.
 Time to recall how our monitoring was setup.
 
 [#setup]
@@ -60,26 +60,26 @@ image::webshop-dt-eda.png[Monitoring and automation setup,align="center",width="
 
 Let's look at the above graph. It shows the following:
 
-1. *Web Shop* is running on RHEL host, which has *Dynatrace OneAgent* sending
+1. *Web Shop* is running on a RHEL host, which has *Dynatrace OneAgent* sending
    analyses to Dynatrace.
-2. *Dynatrace* is continuously analyzing the VM state, and monitors the state of
+2. *Dynatrace* is continuously analyzing the VM state, and monitors the state of the
    webshop. It can trigger monitoring events, and has log of past events along
    with comments for actions regarding them.
 3. *Event Driven Ansible* (EDA) instance is running Decision Environment (DE)
-   which has active *rulebook* connected to listen to Dynatrace monitoring
+   which has an active *rulebook* connected to listen to Dynatrace monitoring
    events. It makes decisions to calls Ansible controller for actions based on
    the facts it has collected.
 4. *Ansible Controller* has predefined *job templates* available for handling the
-   web shop. It also has API available for EDA to launch the actions, and it
-   keeps *log of jobs* run. Controller launches jobs to handle web shop.
+   web shop. It also has an API available for EDA to launch the actions, and it
+   keeps *log of jobs* run. The controller launches jobs to handle the web shop.
 
 [#action]
 = Time to Action
 
-You decide to dig into tooling to find out what caused the error, when did it
-happen, and how was it handled to get web shop back to operational state.
+You decide to dig into tooling to find out what caused the error, when it
+happened, and how was it handled to get the web shop back to operational state.
 
-NOTE: *Instructor now gives tasks for you to find out facts from the environment.*
+NOTE: *Instructor will now give tasks for you to find out facts from the environment.*
 
 
 [#introductory]
