@@ -81,6 +81,8 @@ happened, and how was it handled to get the web shop back to operational state.
 
 NOTE: *Instructor will now give tasks for you to find out facts from the environment.*
 
+Links to tools and tasks are provided link:https://etherpad-labs.{aap_controller_web_url}/p/welcome/[in Etherpad]
+
 
 [#introductory]
 == Introductory to tools
