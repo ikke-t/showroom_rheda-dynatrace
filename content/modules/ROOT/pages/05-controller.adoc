@@ -15,4 +15,28 @@ image::controller-gui.png[Ansible Controller,align="center",width="100%"]
 = Ansible Controller navigation
 
 You can navigate around Ansible Controller using the left side bar. You have
-view permissions only.
+view permissions only, so feel encouraged to click around!
+
+[#jobs]
+## Controller Jobs
+
+link:https://{aap_controller_web_url}/#/jobs[Controller Jobs] tab shows you the history
+of any jobs templates controller has run.
+
+
+image::controller-jobs.png[Ansible Controller Jobs,align="center",width="100%"]
+
+[#templates]
+## Controller Templates
+
+link:https://{aap_controller_web_url}/#/templates[Controller Templates] tab
+shows you the list of available automation templates. Click into given templates
+to see the details of them. You'll find the git version control links from the
+Projects tab.
+
+image::controller-templates.png[Ansible Controller Templates,align="center",width="100%"]
+
+NOTE: In this lab we use only the simplest form of templates. In reality
+they might be workflows, like doing things in series and parallel, and having
+success and failure paths. Checkout
+link:https://docs.ansible.com/automation-controller/latest/html/userguide/workflow_templates.html[Workflow Templates guide].

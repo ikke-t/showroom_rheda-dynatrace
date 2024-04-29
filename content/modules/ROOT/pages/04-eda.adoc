@@ -15,4 +15,25 @@ image::eda-gui.png[Event Driven Ansible GUI,align="center",width="100%"]
 = EDA navigation
 
 You can navigate around EDA using the left side menu. You have
-view permissions only.
+view only permissions, so feel encouraged to click around.
+
+[#activations]
+## EDA Rulebook activations
+
+link:{eda_controller_web_url}/rulebook-activations[Rulebook activations tab]
+lists all running or disabled rulebooks. Click to them to learn more details
+how they are built, and to see activation history. The version control links
+are in Projects menu.
+
+link:{eda_controller_web_url}/[here]
+
+image::eda-rb-activations.png[Event Driven Ansible Rulebook Activations,align="center",width="100%"]
+
+[#audit]
+## EDA Rule Audit
+
+You can see the history of the recorded events from
+link:{eda_controller_web_url}/rule-audits[Rule Audit tab]. Click the links to
+see further details of the events.
+
+image::eda-rule-audit.png[Event Driven Ansible Rule Audit,align="center",width="100%"]
