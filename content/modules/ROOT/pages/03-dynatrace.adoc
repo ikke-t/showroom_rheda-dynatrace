@@ -18,3 +18,7 @@ You can navigate around Dynatrace instance using either icons in opening page
 or clicking `ctrl-k` to get to search bar.
 
 image::dt-search.png[payment,align="center",width="100%"]
+
+The most interesting entries in this exercise are `Problems` and `Query User Sessions`.
+
+image::dt-menus.png[menus,align="center",width="100%"]
