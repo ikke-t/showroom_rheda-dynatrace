@@ -28,7 +28,7 @@ After the lab you will hopefully understand:
 
 
 [#story]
-= Escape room story
+== Escape room story
 
 You are responsible for a travel agency web shop. One day you arrive at work, and
 notice an email with this topic:
@@ -74,7 +74,7 @@ Let's look at the above graph. It shows the following:
    keeps *log of jobs* run. The controller launches jobs to handle the web shop.
 
 [#action]
-= Time to Action
+== Time to Action
 
 You decide to dig into tooling to find out what caused the error, when it
 happened, and how was it handled to get the web shop back to operational state.

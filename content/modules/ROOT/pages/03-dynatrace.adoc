@@ -12,7 +12,7 @@ NOTE: Username and password are given by instructor
 image::dt-gui.png[Dynatrace Portal,align="center",width="100%"]
 
 [#navigate]
-= Dynatrace navigation
+== Dynatrace navigation
 
 You can navigate around Dynatrace instance using either icons in opening page
 or clicking `ctrl-k` to get to search bar.

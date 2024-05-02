@@ -12,13 +12,13 @@ NOTE: Username and password are given by instructor
 image::controller-gui.png[Ansible Controller,align="center",width="100%"]
 
 [#navigate]
-= Ansible Controller navigation
+== Ansible Controller navigation
 
 You can navigate around Ansible Controller using the left side bar. You have
 view permissions only, so feel encouraged to click around!
 
 [#jobs]
-## Controller Jobs
+=== Controller Jobs
 
 link:https://{aap_controller_web_url}/#/jobs[Controller Jobs] tab shows you the history
 of any jobs templates controller has run.
@@ -27,7 +27,7 @@ of any jobs templates controller has run.
 image::controller-jobs.png[Ansible Controller Jobs,align="center",width="100%"]
 
 [#templates]
-## Controller Templates
+=== Controller Templates
 
 link:https://{aap_controller_web_url}/#/templates[Controller Templates] tab
 shows you the list of available automation templates. Click into given templates

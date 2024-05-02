@@ -11,7 +11,7 @@ this lab. You can enter it link:https://dtg2-cmfxanb0hdgucmbb.z01.azurefd.net/ea
 image::webshop.png[webshop,align="center",width="100%"]
 
 [#payment]
-= Payment details
+== Payment details
 
 You may create which ever username and password you want. There is also
 predefined demo user `maria` with password `maria`. You can book trip and click
