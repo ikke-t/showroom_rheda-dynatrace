@@ -38,8 +38,8 @@ ____
 _EasyTravel webshop had a failure_
 ____
 
-With link to issue tracker ticket which says it was resolved, and ticket state
-is Closed.
+With a link to the issue tracker ticket which says it was resolved, and the ticket
+state is Closed.
 
 You scroll a bit forward, and you notice another mail.
 
