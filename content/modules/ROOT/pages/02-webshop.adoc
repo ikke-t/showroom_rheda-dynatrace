@@ -6,7 +6,7 @@ icon:clock-o[Duration: 5 Minutes] Duration: 5 minutes
 = Explore EasyTravel Web Shop
 
 EasyTravel is a demo webshop Dynatrace uses in demos. It is already setup for you in
-this lab. You can enter it link:https://dtg2-cmfxanb0hdgucmbb.z01.azurefd.net/easytravel/[here].
+this lab. You can enter it link:https://dtg2-cmfxanb0hdgucmbb.z01.azurefd.net/easytravel/[here^].
 
 image::webshop.png[webshop,align="center",width="100%"]
 

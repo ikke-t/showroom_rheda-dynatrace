@@ -5,7 +5,7 @@ icon:clock-o[Duration: 10 Minutes] Duration: 10 minutes
 [#explore]
 = Explore Dynatrace
 
-Dynatrace environment is available link:https://bnk46244.live.dynatrace.com/[here].
+Dynatrace environment is available link:https://bnk46244.live.dynatrace.com/[here^].
 
 NOTE: Username and password are given by instructor
 
