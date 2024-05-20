@@ -19,6 +19,6 @@ or clicking `ctrl-k` to get to search bar.
 
 image::dt-search.png[payment,align="center",width="100%"]
 
-The most interesting entries in this exercise are `Problems` and `Query User Sessions`.
+The most interesting entries in this exercise are `Problems` and `Session Segmentation`.
 
 image::dt-menus.png[menus,align="center",width="100%"]
